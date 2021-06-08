@@ -1,5 +1,6 @@
 package com.demo.services;
 
+import com.demo.serviceImpl.Calculate;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ public class CalculateSumTest {
 
     @Test
     public void shouldAdd(){
-        assertEquals(calculateSum.calculateSum(4,5),9);
+        assertEquals(calculateSum.calculateSum(4,6),10);
     }
 
 }
